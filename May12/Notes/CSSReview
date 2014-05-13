@@ -1,0 +1,45 @@
+Reviewing CSS-Tricks website
+
+* {
+    padding: 0px;
+    margin: 0px;
+    
+    }
+    
+    * Sets the rule for the entire page, use at the top of the sheet. 
+    
+    +DRY = Don't Repeat Yourself
+    vs.
+    -WET = Write Everything Twice
+    
+    Bunch of h2s and h3 need changes, (font style) 
+    
+    h2, h3 {
+    
+        style:
+        color:
+        
+        }
+        
+    Follow up later with..
+    
+    h2 {
+    
+        size:
+        style:
+        
+        }
+        
+    h3 {
+    
+        weight:
+        style:
+        
+        }
+        
+        
+Linked List
+
+<nav>
+<ul>
+<li><a href="g">Home</a></li>

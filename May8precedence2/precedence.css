@@ -1,0 +1,81 @@
+/*Cascade Rules of Precedence
+1. Browser Defaults
+2. External
+3. Embedded
+4. Inline
+5.Attributes
+
+element<elements<class<id
+
+*/
+
+
+p.magic {
+    
+    color:orange;
+    
+}
+
+div p {
+    color:green;}
+
+p { 
+    color:red;
+}
+
+.magic {
+    
+    color:blue;
+}
+
+/*.class are more specific, take more precedence than div p { */
+
+
+.easy {
+    
+    color:gold;
+}
+
+
+#title {
+    
+    color:cyan;
+    
+}
+
+p.magic {
+    
+    color:orange;
+    
+}
+
+blockquote {
+    
+    border-left: 5px solid;
+    font-style: italic;
+    font-size: .9em;
+    color:#222;
+    padding-left: 20px;
+    
+}
+
+/* Background image practice*/
+
+header {
+    
+    background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQuSpQPLjXScFpWmhdIWvikbcl3tu3-8U1ct7hDu_BlqSs_j1Ao);
+    font-size: 45px;
+    font-family: fantasy;
+    color: black;
+    padding: 40px;
+    margin: 10%;
+    text-align: center;
+    
+    
+}
+        
+body {
+    
+    background-image:url(//placekidden.com/500/200);
+    
+}

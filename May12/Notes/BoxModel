@@ -1,0 +1,110 @@
+Content>Padding>Border>Margin
+
+Padding: Pushes content away from walls
+Border: the Walls
+Margin: The outer layer
+
+Padding or Margin?
+
+Are you moving the content or the whole box?
+
+To move content, use PADDING
+(creating space around the content)
+(by default, padding shows the background)
+(internal)
+
+To move content/an element away from another element, use MARGIN
+(more layout focused)
+(how elements interact w eachother)
+(pushes elements away)
+(external)
+
+*Don't think of Microsoft Word language, where Margin means how wide is the text, in html, that is Padding.*
+
+Height & Width affect CONTENT
+
+Box Sizing - what method should the browser use to read this
+ex. box-sizing: border-box;
+                content-box;
+                
+Margin cont.
+TRBL
+
+1)  auto - use it simultaneously on Left and Right, it centers your element (if there is room to center)
+
+ex.
+
+.black { width: 80%;
+         margin: auto;
+         or
+         margin: 20px; 10%;
+
+2) Margin Collapse
+    (for vertical margins. when 2 vertical margins collide, the smaller of the two goes away)
+         
+         
+         THIS WEEK:  FLOAT (float property, clear property)
+                     DISPLAY (inline: block)
+                     POSITION
+                     
+
+         )
+         
+         
+ --        
+         
+FLOW
+
+Normal) The order in which the browser encounters your elements, will be the order in which it loads and renders them
+
+--
+
+FLOAT
+
+float: none|left|right
+  
+1) Renders the element in normal flow
+    -things that come before our floating element, are still going to appear above the floating element
+    
+2) Shifts the element as far left|right as possible...within its container
+
+3) If this is 'big picture' layout (columns etc), specify a width (especially with block elements)
+
+4) Other elements (that come afterwords in normal flow) will "flow" up and around it.
+
+5) Margin is your friend.  Useful to control the empty space.
+
+---
+
+CLEAR
+
+clear: none|left|right|both|
+"Stops bubbling without making you float"
+
+.clear-right {clear: right;}
+
+Can only be applied to Block Elements
+
+ex.
+
+<p>1</p>
+<p>2</p>
+<p>3</p>
+
+p {
+
+    float: right;}
+    
+    }
+    
+This comes out to be 3_2_1 in a page, reversing the order from the right
+
+
+---
+
+Overflow
+
+overflow: auto;
+
+
+

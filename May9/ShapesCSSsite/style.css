@@ -1,0 +1,71 @@
+html,
+body,
+h1,
+h2 {
+    padding: 0;
+    margin: 0
+}
+p {
+    font-family: monospace;
+}
+header {
+    background-color: black;
+}
+nav {
+    float: right;
+    padding-right: 20px;
+    padding-top: 4%;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+}
+header h1 {
+    color: white;
+    padding: 20px;
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: 100;
+}
+header h1 span {
+    text-transform: uppercase;
+    color: grey;
+}
+main h2 span { /*mixing px with %, and div classes (.content)*/
+    color: red;
+}
+div h2 {
+    padding-top: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 60px;
+    font-family: serif;
+    font-style: italic;
+    font-weight: 900;
+}
+div p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+main {
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px;
+    width: 560px;
+}
+body {
+    background-color: grey;
+}
+h3 {
+    background-color: #DCDCDC;
+    width: 100%;
+    height: 40px;
+    padding-top: 15px;
+    font-size: 23px;
+    font-style: italic;
+    text-indent: 30px;
+}

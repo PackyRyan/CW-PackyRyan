@@ -1,0 +1,62 @@
+h1 { color:red;
+     text-shadow: 1px 1px 1px pink;
+     width: 80%;
+     margin-left: 30%;
+     margin-right: 30%;
+     padding: 15px;    
+     
+}
+
+p { color:blue;
+    background-color:white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+li { color: #FFAAEE;
+}
+
+h2 { color: inherit;
+    border: 2px dashed black;
+}
+
+dl { background-color: white;
+     font-family: monospace;
+}
+
+dt { color: green;
+     font-family: serif, "Times New Roman";
+}
+
+nav { width: 50%;
+      margin-bottom: 50px;
+      margin-right: auto;
+      border: 1px solid black;
+      
+}
+
+header {
+    
+        text-decoration: overline;
+}
+
+footer {
+    
+    border: 1px solid #aeaed4;
+    padding: 10px;
+    color: #333;
+    
+}
+
+    /*Rounded corners*/    
+main p {
+    
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    
+}
+
+
+

@@ -1,0 +1,44 @@
+#nav {
+    
+    float: left;
+    border: 2px solid black;
+    background-color: blue;
+    width: 20%;
+    height: 560px;
+    
+}
+
+#rightcol {
+    
+    background-color: grey;
+    border: 2px solid black;
+    margin-left: 250px;
+    height: 560px;
+
+}
+
+#rightcol h1 {
+    
+    border: 2px solid black;
+    margin-right: 670px
+    
+}
+
+#rightcol h2 {
+    
+    border: 2px solid black;
+    margin-right: 765px;
+    
+}
+
+img {
+    
+    float: right;
+    
+}
+    
+#wrapper {
+    
+    float: auto;
+    
+}

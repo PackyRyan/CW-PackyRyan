@@ -1,0 +1,268 @@
+/*Add Scrolling Lock for the nav and h1
+Make nfp/plane buttons the same
+Make 2 new pages, links for the buttons
+make nav a's have ul's inside, in boxes, hidden and shown by mousehover
+make li's link to pages, and highlight a new color on mouseove*/
+
+/* issues: Page Links broken, Page Scroll Lock for Nav, a Links remove decoration, Hover to Pull Down list containers on Nav Bar*/
+
+header {
+    
+    background-color: black;
+    border-radius: 2px;
+    height: 50px;
+    color: white;
+    font-family: "Armata", monospace;
+    font-size: 20px;
+    opacity: .85;
+   
+}
+
+header h1 {
+    
+    color: black;
+    font-family: "Armata", monospace;
+    font-size: 45px;
+    padding-top: 2px;
+    margin-top: 30px
+  
+    
+}
+
+header h1 span {
+    
+    color: #336699;
+    
+}
+
+
+nav {
+    
+    text-align: center;    
+    padding-top: 15px;
+    
+}
+    
+
+nav a {
+    
+    color: #336699;
+    text-decoration: none;
+    border: 1px solid #336699;
+    border-radius: 2px;
+    
+}
+
+
+#Connect h2 {
+    
+    text-align: center;
+    color: #336699;
+    
+}
+
+#Connect p {
+    
+    text-align: center;
+    float: center;
+    padding: 2px 2px 2px 2px;
+    
+}
+
+#Connect {
+    
+    border: 1px solid #336699;
+    margin: auto;
+    margin-top: 15%;
+    background-color: black;
+    opacity: .85;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    width: 560px;
+    font-family: "Armata", monospace;
+    color: white;
+    
+}
+
+
+#IamA  {
+    
+    border: 1px solid #336699;
+    margin: auto;
+    margin-top: 10%;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    width: 200px;
+    float: center;
+    font-family: "Armata", monospace;
+    color: #336699;
+    opacity: .85;
+    text-align: center;
+
+}
+
+#NonProfit {
+    
+    border: 1px solid #336699;
+    margin: auto;
+    margin-top: 10%;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    width: 200px;
+    margin-left: 275px;
+    float: left;
+    font-family: "Armata", monospace;
+    color: #336699;
+    opacity: .85;
+    text-align: center;
+
+}
+
+#NonProfit a {
+    
+    color: #336699;
+    text-decoration: none;
+    
+}
+
+
+
+#Airplane {
+    
+    border: 1px solid #336699;
+    margin: auto;
+    margin-top: 10%;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    width: 200px;
+    margin-right: 275px;
+    float: right;
+    font-family: "Armata", monospace;
+    color: #336699;
+    opacity: .85;
+    text-align: center;
+
+}
+
+#Airplane a {
+    
+    color: #336699;
+    text-decoration: none;
+    
+}
+
+body {
+    
+    background-color: transparent;
+    
+}
+
+#PlaneOwner {
+    
+    border: 1px solid #336699;
+    margin: auto;
+    margin-top: 15%;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    width: 560px;
+    font-family: "Armata", monospace;
+    color: white;
+    
+}
+    
+#HowContent h2 {
+    
+    text-align: center;
+    color: #336699;
+    text-decoration: none;
+    font-family: "Armata", monospace;
+    border: 1px solid #336699;
+    margin: auto;
+    margin-top: 15%;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px;
+    padding: 10px;
+    width: 200px;
+    
+    
+}
+
+#HowContent  {
+    
+    text-align: left;
+    float: center;
+    padding: 2px 2px 2px 2px;
+    
+}
+
+#HowContent p {
+    
+    border: 1px solid #336699;
+    margin: auto;
+    margin-top: 15%;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    width: 210px;
+    font-family: "Armata", monospace;
+    color: white;
+    
+}
+    
+    
+    
+#PlaneOwner h2 {
+    
+    text-align: center;
+    color: #336699;
+    
+}
+
+#PlaneOwner p {
+    
+    text-align: center;
+    float: center;
+    padding: 2px 2px 2px 2px;
+    
+}
+
+#NFP {
+    
+    border: 1px solid #336699;
+    margin: auto;
+    margin-top: 15%;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    width: 560px;
+    font-family: "Armata", monospace;
+    color: white;
+    
+}
+    
+#NFP h2 {
+    
+    text-align: center;
+    color: #336699;
+    
+}
+
+#NFP p {
+    
+    text-align: center;
+    float: center;
+    padding: 2px 2px 2px 2px;
+    
+}
+html { 
+  background: url(//stockercary.com/wp-content/uploads/2011/07/Jet-over-city.jpg) no-repeat center center fixed; 
+  background-size: cover;
+ 
+}
+
+
