@@ -1,0 +1,78 @@
+Layouts!
+
+Fixed -  width: 960px;
+-usually centered
+
+Fluid - width: 80%; 
+-usually centered
+-using % allows the screen to shrink/grow 
+
+min-width: dimensions
+max-width: dimensions
+
+} Stopping points
+
+paragraphs 
+45-80 characters per line
+
+Responsive (Week 3, media queries)
+
+Emmet shortcut:
+
+ul>li>a "tab" gives you..
+<ul>
+   <li><a href=""></a></li>
+<ul>
+
+tab: activate element
+
+tag: <tag></tag>
+
+tag1>tag2:  <tag1><tag2><tag1>
+
+*n: n<tags>
+group with ()
+
+tag {text}: <tag>TextZ</tag>
+
++: make sibling
+
+------
+Lists - ul, ol
+------
+
+*list-style-type: none;
+
+none
+disc
+cirlce
+square
+upper-alpha
+lower-alpha
+lower-roman
+
+*list-style-image: url(...)  -- for custom/images in place of the bullet points
+
+also can use
+
+background-image: url()
+background-position: -20px center;
+
+*list-style-position: inside|outside
+
+    outside is default
+    
+-------
+Display
+-------
+
+display: block|inline|inline-block
+
+block: (div, footer, main, hx, p)
+
+inline: (span, em, strong, a, img)
+
+**Width and Height cannot be specified on inline elements**
+
+inline-block: behaves like inline, but (!) we can specify dimensions (Width|Height)
+

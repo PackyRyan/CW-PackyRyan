@@ -1,0 +1,78 @@
+body {
+    
+    background: #BBF;
+    margin: 0;
+    
+}
+
+#wrapper {
+    
+    width: 960px;
+    margin: 0 auto;
+    background: purple;
+    box-shadow: 5px 0px 5px 10px grey;
+    
+}
+
+nav {
+    
+    float: left;
+    width: 200px;
+    
+}
+
+nav ul {
+    
+    list-style-type: none;
+    
+}
+
+
+nav a {
+    
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    display: block;
+    width: 150px;
+    
+}
+
+#rightcol {
+    
+    background: #77E;
+    margin-left: 200px;
+    padding: 20px;
+    
+}
+
+
+main img {
+    
+    float: right;
+    
+}
+
+header ul {
+    
+    padding: 0;
+    
+}
+
+header a {
+    
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+header li {
+    
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    
+}
+

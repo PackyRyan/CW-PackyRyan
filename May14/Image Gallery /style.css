@@ -1,0 +1,61 @@
+header {
+    
+    font-size: 35px;
+    font-family: italic;
+    font-weight: bolder;
+    
+}
+    
+
+h1 {
+    
+    width: 100%;
+    
+}
+
+    
+ul {
+    
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px;
+
+}
+
+li {
+    
+    display: inline-block;
+    width: 225px;
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+img {
+    
+    width: 225px;
+       
+}
+
+figure {
+    
+    width: 225px;
+    text-align: center;
+    background-color: #828282;
+    
+}
+
+figcaption {
+    
+    font-style: italic;
+    font-size: large;
+    
+}
+
+
+    
+    
+        
+    
+
+    

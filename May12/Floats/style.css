@@ -2,25 +2,32 @@
     
     float: left;
     border: 2px solid black;
-    background-color: blue;
+    background-color: #CCFFFF;
     width: 20%;
-    height: 560px;
+    height: 570px;
+   
+    
+}
+
+#nav a {
+    
+    text-decoration: none;
     
 }
 
 #rightcol {
     
-    background-color: grey;
+    background-color: #4ED779;
     border: 2px solid black;
     margin-left: 250px;
-    height: 560px;
+    height: 570px;
 
 }
 
 #rightcol h1 {
     
     border: 2px solid black;
-    margin-right: 670px
+    margin-right: 600px
     
 }
 

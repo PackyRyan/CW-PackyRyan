@@ -1,0 +1,248 @@
+Git, learn it.
+
+-----
+Horizontal List 
+-----
+
+1) Filling the parent 100%
+    -Fixed
+    -Fluid
+2) Hacks to make stuff work
+    -Comment
+    
+       <ul>
+        <li><a href="//">Link1</a></li><!--
+        --><li><a href="//">Link2</a></li><!--
+        --><li><a href="//">Link3</a></li><!--
+        --><li><a href="//">Link4</a></li>
+    </ul>
+    
+    --
+    
+    <li>..</li
+    ><li>..</li>
+    -pushed down
+    -closing tag
+    -single line
+3) Float? inline-block?
+
+li 
+
+--
+Box Sizing: what does the "width" property actually specify?
+
+box-sizing: border-box;
+            content-box;
+            
+            
+            *{margin:0; padding:0; box-sizing: border-box;}*
+            Put this at the top of every page to affect all HTML
+            
+            
+-----------------
+Pseudo Classes!
+
+(selector:pseudo-class selector)
+
+ex.
+
+a:link{
+li:hover a{
+
+-----------------
+Targeting the first element in a class, the last, even elements, odd elements, mouseover, links...
+
+
+link (anchor) psuedo classes
+
+1. link
+2. visited
+3. focus
+4. hover
+5. active
+
+in this order, going down in your code.  order matters.
+
+LINK
+
+a:link { /* default state */
+a:visited {color: purple;}
+
+a:link, a:visited { whether you visited the site or not, make the color white
+        color: white;
+        
+        }
+
+FOCUS
+
+a:focus {when you're tabbing through a site, the highlighting}
+
+HOVER
+
+a:hover {when the users mouse is over an element, give it this property}
+
+a:hover {font-weight: bold;)
+
+ex.
+
+li:hover a {
+    color:red;
+    }
+    
+a:link, a:visited, a:active {
+
+------
+Ordering
+------
+1) First Child
+
+<ul>
+    <li> First Child </p>
+    </li> Last Child </p>
+<ul>
+
+ul li:first-child {}
+
+2) Last Child
+
+li:last-child {}
+
+
+ex
+
+
+li {display: inline-block;
+    border: 1px solid white
+    border-top: none;
+    border-bottom: none;
+    }
+
+li:first-child {
+    border-left:none;}
+li:last-child {
+    border-right: none;
+    }
+    
+    -------------------------------
+    
+3) first-of-type | last-of-type
+
+<div class="article">
+    <h2>
+    <p>
+    <p>
+</div>
+
+.article p:first-of-type {
+    font-size: 1.6em;
+    }
+    
+    First p in the div will be 1.6em bigger
+    
+4) nth-child
+
+ex. 
+    ul
+        li
+        li
+        li
+        li
+        li
+        
+li:nth-child(odd) {
+    background:black;
+    color:white;
+    }
+    
+odd, even, 
+
+Every 3rd one down (0,3,6,9) = nth-child(3n) 
+
+5th one down = nth-child(5)
+
+the first 3 elements -  li: nth-child (-1n+3)
+
+
+5) nth-of-type
+
+-----------------------------------
+Advanced Selectors
+-----------------------------------
+
+1) > 'direct/immediate descendent selector'
+    Affects the immediate parent, below, the > selector will make the p's that are directly under main, not the main in the div
+
+    <main>
+        <p>...</p>
+        <div>
+            <p>...</p>
+        </div>
+    </main>
+    
+    main p {}
+    main>p {]
+
+2) + 'immediate sibling'
+"all paragraphs that come right after an h2.."
+
+   <h2>..</h2>
+    <p>..</p>
+    <p>..</p>
+    
+h2 + p {} ---> affects only the 1st p, the 2nd isnt an immediate sibling of h2
+
+li+li {
+    border-left:...
+    }
+    
+    
+3) ~ 'sibling selector'
+
+    h2
+    img
+    p
+    im
+    p
+    p
+    p
+    ul
+    
+    h2 ~ p {
+        will affect ALL p's under the h2's.  
+   
+   <div>
+    h2
+    img
+    p
+    im
+    p
+    p
+    p
+    ul
+    </div>
+    p
+    
+    in this example, the p outside the div wouldn't be affected.
+
+-----------------------
+   HTML5 Containers
+-----------------------
+
+<article>
+
+<aside>
+ -tangential info that can be removed w/out affecting the content of the page-
+ -used often for Ads
+ 
+ <section> Different sections of content (section class=)
+ 
+ <h1>Title</h1>
+<section>
+ <h1>Inner Title</h1>
+ <section><h1>Stuff</h1>
+</section>
+    
+    
+    Title
+        Inner Title
+                Stuff

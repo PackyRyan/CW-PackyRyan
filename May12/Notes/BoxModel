@@ -74,6 +74,8 @@ float: none|left|right
 
 5) Margin is your friend.  Useful to control the empty space.
 
+When you float something, give it a width*
+
 ---
 
 CLEAR
