@@ -1,0 +1,46 @@
+body {
+    
+    background-color: #EEE;
+    
+}
+
+main {
+    
+    width: 200px;
+    height: 600px;
+    margin: 40px auto;
+    background-color: white;
+    
+}
+
+div {
+    
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 100px;
+    text-align: center;
+    position: relative;
+    
+}
+
+div:first-child {
+    
+    background-color: red;
+    
+}
+
+div:nth-child(2) {
+    
+    background-color: blue;
+    right: 50px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+div:nth-child(3) {
+    
+    background-color: green;
+    bottom: 100px;
+    
+}

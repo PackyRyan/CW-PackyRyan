@@ -1,1 +1,92 @@
 Navagiting the cmmand line
+git status
+git clone __ __ (from url, to)
+cd (change directory)
+
+***DO NOT mix Float and Position** either or
+---
+Position
+---
+static   -->default
+fixed
+relative
+absolute
+
+--
+z-index
+--
+z-inded
+
+
+position: fixed;
+
+1)Remove from normal flow
+1a) Use margi or padding as necessary
+
+2)When user scrolls, the element stays put and does not scroll with page
+
+--
+Offsets
+-dictate the elements position from the side specified-
+--
+top
+right
+bottom
+left
+
+top: dimenion; (px or %)
+
+fixed offset: the distance from the edge of the screen
+
+Typically we specify two offsets, to create a fixed X,Y position (vert/horiz)
+
+ex.
+
+position: fixed;
+top: 0;
+left: 0;
+width: set this whenever you specify Fix and Offset
+positioned at the top left corner of the page, no pixels of space
+
+position: fixed;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+
+]takes up the whole page fully
+
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+
+]used for headers
+
+----------
+position: relative
+----------
+
+1) Remain in the normal flow
+2) Offsets refer to where the element would be in its natural flow
+
+
+
+-----
+z-index
+-----
+
+1) Only affects non-static elements
+2) Default is 0
+3) Takes unitless integers as values (-9999999 to 9999999)
+
+------------------
+position: absolute
+------------------
+
+1) Removes from normal flow (like fixed, stays put w/o offsets)
+2) Offset Coordinates is based off of first (closest) non-static parent.
+    a) If there is no non-static parent, then it is based off the <body>.  aka  identical to fixed.
+3) Set a width
+
+
